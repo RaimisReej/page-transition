@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Transitions</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body data-barba="wrapper">
+    
+    <nav class="nav">
+        <img src="./images/burger.svg" alt="">
+        <a href="./index.html" class="logo">maxed.</a>
+        <img src="./images/shopping-cart.svg" class="shopping-bag" alt="shoping-bag">
+    </nav>
+    
+    <div class="product-section" data-barba="container" data-barba-namespace="product">
+        <div class="product-description">
+            <h2>Shop our signatures.</h2>
+            <p>Your shortcut to sophistication. Our signatures never go out of style.</p>
+        </div>
+        <div class="product-gallery">
+                <div class="card">
+                    <img class="product-image" src="./images/blackcard.png" alt="black card">
+                    <h3>Leisara</h3>
+                    <p>black leather</p>
+                    <div class="price">
+                        <h4>$400</h4>
+                        <img src="./images/product-cart.svg" class="product-card" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                        <img class="product-image" src="./images/blackcard.png" alt="black card">
+                        <h3>Leisara</h3>
+                        <p>black leather</p>
+                        <div class="price">
+                            <h4>$400</h4>
+                            <img src="./images/product-cart.svg" class="product-card" alt="">
+                        </div>
+                </div>
+                <div class="card">
+                            <img class="product-image" src="./images/yellowcard.png" alt="black card">
+                            <h3>Leisara</h3>
+                            <p>black leather</p>
+                            <div class="price">
+                                <h4>$400</h4>
+                                <img src="./images/product-cart.svg" class="product-card" alt="">
+                            </div>
+                </div>
+                <div class="card">
+                                <img class="product-image" src="./images/tancard.png" alt="black card">
+                                <h3>Leisara</h3>
+                                <p>black leather</p>
+                                <div class="price">
+                                    <h4>$400</h4>
+                                    <img src="./images/product-cart.svg" class="product-card" alt="">
+                                </div>
+                </div>     
+                <div class="card">
+                            <img class="product-image" src="./images/bluecard.png" alt="black card">
+                            <h3>Leisara</h3>
+                            <p>black leather</p>
+                            <div class="price">
+                                    <h4>$400</h4>
+                                <img src="./images/product-cart.svg" class="product-card" alt="">
+                            </div>
+                </div>
+         </div>
+     </div>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- unpkg -->
+<script src="https://unpkg.com/@barba/core"></script>
+
+<!-- jsdelivr -->
+<script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
